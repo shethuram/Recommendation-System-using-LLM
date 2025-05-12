@@ -1,6 +1,6 @@
 # 🎮 Movie Recommendation System using LLMs
 
-This project demonstrates a novel approach to movie recommendation by combining **LLM-based genre prediction**, **script summarization**, and **user interaction data**. It uses **YouTube trailer transcriptions**, **Whisper**, and **LLAMA 3.1 8B via Langchain’s ChatGroq** to build a personalized ranking system for users.
+This project demonstrates a novel approach to movie recommendation by combining **LLM-based genre prediction**, **script summarization**, and **user interaction data**. It uses **YouTube trailer transcriptions**, **Whisper**, and **LLAMA 3.1 8B-instant via Langchain’s ChatGroq** to build a personalized ranking system for users.
 
 ---
 
@@ -19,7 +19,7 @@ Traditional recommendation systems rely heavily on numerical ratings and metadat
   * Whisper ASR (for trailers without transcripts)
 
 * **Summary Generation**:
-  Movie summaries generated from transcribed scripts using **LLAMA 3.1 8B**, enabling content-aware recommendation logic.
+  Movie summaries generated from transcribed scripts using **LLAMA 3.1 8B-instant**, enabling content-aware recommendation logic.
 
 * **Genre Prediction**:
   LLAMA was also prompted to predict movie genres based on the generated summaries, adding semantic metadata for better personalization.
